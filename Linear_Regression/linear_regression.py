@@ -17,7 +17,6 @@ ax.plot(x, y, 'bo')
 ax.plot(x, x.dot(beta_hat), 'r')
 plt.show()
 
-#simple 3D linear regressison example
 z = np.linspace(10, 20, num=N).reshape(N, 1)
 x_3d = np.concatenate((x, z), axis=1)
 
